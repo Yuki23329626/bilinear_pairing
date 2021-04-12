@@ -19,6 +19,10 @@ library BN256G2 {
   uint internal constant PTZX = 4;
   uint internal constant PTZY = 5;
 
+  uint256 public constant G2_XX  = 0x198E9393920D483A7260BFB731FB5D25F1AA493335A9E71297E485B7AEF312C2;
+  uint256 public constant G2_XY  = 0x1800deef121f1e76426a00665e5c4479674322d4f75edadd46debd5cd992f6ed;
+  uint256 public constant G2_YX  = 0x90689d0585ff075ec9e99ad690c3395bc4b313370b38ef355acdadcd122975b;
+  uint256 public constant G2_YY  = 0x12c85ea5db8c6deb4aab71808dcb408fe3d1e7690c43d37b4ce6cc0166fa7daa;
   // This is the generator negated, to use for pairing
   uint256 public constant G2_NEG_X_RE  = 0x198E9393920D483A7260BFB731FB5D25F1AA493335A9E71297E485B7AEF312C2;
   uint256 public constant G2_NEG_X_IM  = 0x1800DEEF121F1E76426A00665E5C4479674322D4F75EDADD46DEBD5CD992F6ED;
